@@ -4,7 +4,8 @@
   "base_package" : "com.ouzacocktailbarkitchen",
   "project_dependencies" : {
     "spring_boot_starters" : [ "web", "data-jpa", "postgresql", "lombok", "validation", "actuator", "security", "mail" ],
-    "npm_packages" : [ "@tanstack/react-query", "react-hook-form", "zod", "axios", "react-router-dom", "clsx", "tailwind-merge", "lucide-react", "razorpay/checkout.js" ]
+    "npm_packages" : [ "@tanstack/react-query", "react-hook-form", "zod", "axios", "react-router-dom", "clsx", "tailwind-merge", "lucide-react", "razorpay/checkout.js" ],
+    "maven_dependencies" : null
   },
   "files" : [ {
     "file_name" : "User.java",
@@ -1392,7 +1393,7 @@
     "layer" : "SERVICE",
     "created_date" : "2024-07-27",
     "updated_date" : "2026-06-28",
-    "status" : "GENERATED",
+    "status" : "GENERATION_FAILED",
     "description" : "Service for interacting with the Razorpay payment gateway.",
     "public_functions" : [ {
       "name" : "createRazorpayOrder",

@@ -1,0 +1,100 @@
+# Project History
+
+This file tracks each generation attempt.
+
+## Attempt 2 — 2026-06-28 [IN PROGRESS]
+
+**Business:** Ouza Cocktail Bar & Kitchen
+**Planned Files (90):**
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/User.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/Role.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/repository/UserRepository.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/service/UserService.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/util/JwtUtil.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/security/JwtAuthFilter.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/config/SecurityConfig.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/SpaController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/config/AdminInitializer.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/AuthController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/AuthRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/AuthResponse.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/RegisterRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/exception/GlobalExceptionHandler.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/ErrorResponse.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/exception/ResourceNotFoundException.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/MenuItem.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/MenuItemCategory.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/repository/MenuItemRepository.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/repository/MenuItemCategoryRepository.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/service/MenuService.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/MenuController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/AdminMenuController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/MenuItemDto.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/CreateMenuItemRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/UpdateMenuItemRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/MenuItemCategoryDto.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/Reservation.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/ReservationStatus.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/repository/ReservationRepository.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/service/ReservationService.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/ReservationController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/AdminReservationController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/ReservationDto.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/CreateReservationRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/UpdateReservationStatusRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/Order.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/OrderItem.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/model/OrderStatus.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/repository/OrderRepository.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/repository/OrderItemRepository.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/service/OrderService.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/service/PaymentService.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/OrderController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/PaymentController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/controller/AdminOrderController.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/CreateOrderRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/OrderItemRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/OrderResponse.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/PaymentVerificationRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/dto/UpdateOrderStatusRequest.java
+- backend/src/main/java/com/ouzacocktailbarkitchen/config/DataSeeder.java
+- frontend/src/api/client.ts
+- frontend/src/context/AuthContext.tsx
+- frontend/src/hooks/useAuth.ts
+- frontend/src/services/authService.ts
+- frontend/src/types/auth.ts
+- frontend/src/App.tsx
+- frontend/src/components/Layout.tsx
+- frontend/src/components/Header.tsx
+- frontend/src/components/Footer.tsx
+- frontend/src/components/admin/AdminLayout.tsx
+- frontend/src/components/ProtectedRoute.tsx
+- frontend/src/pages/HomePage.tsx
+- frontend/src/pages/LoginPage.tsx
+- frontend/src/pages/admin/AdminDashboardPage.tsx
+- frontend/src/types/menu.ts
+- frontend/src/services/menuService.ts
+- frontend/src/hooks/useMenu.ts
+- frontend/src/pages/MenuPage.tsx
+- frontend/src/pages/admin/AdminMenuPage.tsx
+- frontend/src/services/adminMenuService.ts
+- frontend/src/types/reservation.ts
+- frontend/src/services/reservationService.ts
+- frontend/src/hooks/useReservations.ts
+- frontend/src/pages/ReservationPage.tsx
+- frontend/src/pages/admin/AdminReservationsPage.tsx
+- frontend/src/services/adminReservationService.ts
+- frontend/src/types/order.ts
+- frontend/src/context/CartContext.tsx
+- frontend/src/services/orderService.ts
+- frontend/src/hooks/useOrders.ts
+- frontend/src/pages/CheckoutPage.tsx
+- frontend/src/pages/admin/AdminOrdersPage.tsx
+- frontend/src/services/adminOrderService.ts
+- frontend/src/pages/ContactPage.tsx
+- Dockerfile
+- docker-compose.yml
+- .env.example
+- .github/workflows/ci-cd.yml
+
+---
